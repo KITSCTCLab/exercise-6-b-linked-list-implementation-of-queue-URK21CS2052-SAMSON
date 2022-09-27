@@ -41,6 +41,7 @@ class Queue:
 # Do not change the following code
 queue = Queue()
 operations = []
+
 for specific_operation in input().split(','):
     operations.append(specific_operation.strip())
 input_data = input()
